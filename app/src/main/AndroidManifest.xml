@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectfrontend">
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectFrontEnd">
+        <activity android:name=".HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".home_ind"/>
+        <activity android:name=".tlearningActivity"/>
+        <activity android:name=".tlearning_ind"/>
+        <activity android:name="com.example.projectfrontend.classKontradiksiMatriks.kontradiksimatriksActivity"/>
+        <activity android:name="com.example.projectfrontend.classKontradiksiMatriks.kontradiksimatriks_ind"/>
+        <activity android:name="com.example.projectfrontend.classWhatIsTriz.whatistrizActivity"/>
+        <activity android:name="com.example.projectfrontend.classWhatIsTriz.whatistrizind"/>
+        <activity android:name="com.example.projectfrontend.classTrizforBAM.trizforbamActivity"/>
+        <activity android:name="com.example.projectfrontend.classTrizforBAM.trizforbamind"/>
+        <activity android:name="com.example.projectfrontend.classParameter.parametersActivity"/>
+        <activity android:name="com.example.projectfrontend.classParameter.parameterind"/>
+        <activity android:name="com.example.projectfrontend.classPrinsipalSolusi.prinsipalsolusiActivity"/>
+        <activity android:name="com.example.projectfrontend.classPrinsipalSolusi.prinsipalsolusiInd"/>
+        <activity android:name="com.example.projectfrontend.classKontradiksiMatriks.tlkontradiksiActivity"/>
+        <activity android:name="com.example.projectfrontend.classKontradiksiMatriks.tlkontradiksiInd"/>
+        <activity android:name="com.example.projectfrontend.classCaseStudy.casestudyActivity"/>
+        <activity android:name="com.example.projectfrontend.classCaseStudy.CasestudyInd"/>
+        <activity android:name="com.example.projectfrontend.classPrinsipalSolusi.penjelasanprinsipalActivity"/>
+        <activity android:name="com.example.projectfrontend.classPrinsipalSolusi.PenjelasanpsInd_activity"/>
+        <activity android:name="com.example.projectfrontend.classParameter.penjelasanparameterActivity"/>
+        <activity android:name="com.example.projectfrontend.classParameter.penjelasanparameterind"/>
+        <activity android:name="com.example.projectfrontend.classCaseStudy.penjelasan_cs"/>
+        <activity android:name="com.example.projectfrontend.classCaseStudy.penjelasan_cs_ind"/>
+    </application>
+</manifest>
